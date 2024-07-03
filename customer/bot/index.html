@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/chatBot.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" media="all" href="css/setup.css">
+	<link rel="stylesheet" media="all" href="css/says.css">
+	<link rel="stylesheet" media="all" href="css/reply.css">
+	<link rel="stylesheet" media="all" href="css/typing.css">
+	<link rel="stylesheet" media="all" href="css/input.css">
+
+</head>
+<body>
+<style>
+    .bubble-container .input-wrap textarea {
+		margin: 2%;
+        height: 1%;
+	}
+</style>
+
+<div class="chat-screen p-1 border">
+    
+    <div class="chat-body w-100 rounded">
+        <div id="chat" style="background: #FBFBFB;"></div>
+    </div>
+</div>
+
+<div class="chat-bot-icon">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-message-square animate"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x "><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+</div>
+
+<script src="js/jquery-3.1.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/Bubbles.js"></script>
+<script src="js/rm.js"></script>
+
+<script>
+    $(document).ready(function () {
+        //Toggle fullscreen
+        $(".chat-bot-icon").click(function (e) {
+            $(this).children('img').toggleClass('hide');
+            $(this).children('svg').toggleClass('animate');
+            $('.chat-screen').toggleClass('show-chat');
+        });
+    });
+</script>
+</body>
+
+</html>

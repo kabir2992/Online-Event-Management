@@ -1,0 +1,547 @@
+.carousel-item.position-relative > img {
+    object-fit: cover !important;
+    height: 85vh;
+    opacity: .8;
+}
+
+.carousel-item.position-relative {
+    position: absolute;
+    color: rgba(255,255,255,0.5);
+}
+
+.carousel-caption.d-none.d-md-block > h1 {
+    font-size: 42px;
+    color: white;
+    text-shadow: 2px 2px 8px #4d4d4d;
+}
+
+.carousel-inner{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.carousel-inner > .carousel-main-text {
+    position: absolute;
+    font-size: 64px;
+    color: white;
+    text-shadow: 2px 2px 8px #4d4d4d;
+    z-index: 5;
+    margin: auto;
+    margin-top: 200px;
+    left: 0%;
+    right: 0%;
+    text-align: center;
+}
+
+.container-offer-product {
+    margin-top: 55px;
+    padding: 0px 16px;
+  }
+  @media only screen and (max-width: 1800px) {
+    .container-offer-product {
+      margin-top: 46px;
+    }
+  }
+  @media only screen and (max-width: 991px) {
+    .container-offer-product {
+      margin-top: 38px;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    .container-offer-product {
+      margin-top: 30px;
+      padding: 0px 13px;
+    }
+  }
+  @media only screen and (max-width: 576px) {
+    .container-offer-product {
+      margin-top: 20px;
+      padding: 0px 10px;
+    }
+  }
+  .container-offer-product .card-1 {
+    height: 252px;
+    background-color: #ced8fd;
+    position: relative;
+  }
+  @media only screen and (max-width: 991px) {
+    .container-offer-product .card-1 {
+      height: 200px;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    .container-offer-product .card-1 {
+      height: 160px;
+    }
+  }
+  @media only screen and (max-width: 576px) {
+    .container-offer-product .card-1 {
+      height: 130px;
+    }
+  }
+  .container-offer-product .card-1 .card-text {
+    text-shadow: 2px 2px 8px #4d4d4d;
+    max-width: 262px;
+    width: 100%;
+    padding: 0px 39px;
+  }
+  @media only screen and (max-width: 1800px) {
+    .container-offer-product .card-1 .card-text {
+        text-shadow: 2px 2px 8px #4d4d4d;
+      padding: 0px 31px;
+      color: white;
+    }
+  }
+  @media only screen and (max-width: 991px) {
+    .container-offer-product .card-1 .card-text {
+        text-shadow: 2px 2px 8px #4d4d4d;
+      padding: 0px 18px;
+      max-width: 202px;
+      color: white;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    .container-offer-product .card-1 .card-text {
+        text-shadow: 2px 2px 8px #4d4d4d;
+      padding: 0px 16px;
+      max-width: 226px;
+      color: white;
+
+    }
+  }
+  @media only screen and (max-width: 576px) {
+    .container-offer-product .card-1 .card-text {
+        text-shadow: 2px 2px 8px #4d4d4d;
+      padding: 0px 12px;
+      max-width: 160px;
+      color: white;
+
+    }
+  }
+  .container-offer-product .card-2 {
+    height: 252px;
+    background-color: #7b96f8;
+    position: relative;
+  }
+  .container-offer-product .card-2 .card-text {
+    text-shadow: 2px 2px 8px #4d4d4d;
+    max-width: 185px;
+    width: 100%;
+    padding: 0px 28px;
+  }
+  @media only screen and (max-width: 1800px) {
+    .container-offer-product .card-2 .card-text {
+        text-shadow: 2px 2px 8px #4d4d4d;
+      padding: 0px 24px;
+    }
+  }
+  @media only screen and (max-width: 991px) {
+    .container-offer-product .card-2 .card-text {
+        text-shadow: 2px 2px 8px #4d4d4d;
+      padding: 0px 20px;
+      max-width: 126px;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    .container-offer-product .card-2 .card-text {
+        text-shadow: 2px 2px 8px #4d4d4d;
+      padding: 0px 16px;
+      max-width: 150px;
+    }
+  }
+  @media only screen and (max-width: 576px) {
+    .container-offer-product .card-2 .card-text {
+        text-shadow: 2px 2px 8px #4d4d4d;
+      padding: 0px 12px;
+      max-width: 100px;
+    }
+  }
+  @media only screen and (max-width: 991px) {
+    .container-offer-product .card-2 {
+      height: 200px;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    .container-offer-product .card-2 {
+      height: 160px;
+    }
+  }
+  @media only screen and (max-width: 576px) {
+    .container-offer-product .card-2 {
+      height: 130px;
+    }
+  }
+  .container-offer-product .card-3 {
+    height: 270px;
+    background-color: #6b8bfa;
+    position: relative;
+  }
+  @media only screen and (max-width: 991px) {
+    .container-offer-product .card-3 {
+      height: 220px;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    .container-offer-product .card-3 {
+      height: 160px;
+    }
+  }
+  @media only screen and (max-width: 576px) {
+    .container-offer-product .card-3 {
+      height: 130px;
+    }
+  }
+  .container-offer-product .card-3 .card-text {
+    text-shadow: 2px 2px 8px #4d4d4d;
+    max-width: 174px;
+    width: 100%;
+    padding: 0px 20px;
+  }
+  @media only screen and (max-width: 1800px) {
+    .container-offer-product .card-3 .card-text {
+        text-shadow: 2px 2px 8px #4d4d4d;
+      padding: 0px 18px;
+    }
+  }
+  @media only screen and (max-width: 991px) {
+    .container-offer-product .card-3 .card-text {
+        text-shadow: 2px 2px 8px #4d4d4d;
+      padding: 0px 6px;
+      max-width: 100px;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    .container-offer-product .card-3 .card-text {
+        text-shadow: 2px 2px 8px #4d4d4d;
+      padding: 0px 4px;
+      max-width: 140px;
+    }
+  }
+  @media only screen and (max-width: 576px) {
+    .container-offer-product .card-3 .card-text {
+        text-shadow: 2px 2px 8px #4d4d4d;
+      padding: 0px 2px;
+      max-width: 100px;
+    }
+  }
+  .container-offer-product .card-4 {
+    height: 270px;
+    position: relative;
+    background-color: #ced8fd;
+  }
+  @media only screen and (max-width: 991px) {
+    .container-offer-product .card-4 {
+      height: 220px;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    .container-offer-product .card-4 {
+      height: 160px;
+    }
+  }
+  @media only screen and (max-width: 576px) {
+    .container-offer-product .card-4 {
+      height: 130px;
+    }
+  }
+  .container-offer-product .card-4 .card-text {
+    text-shadow: 2px 2px 8px #4d4d4d;
+    max-width: 192px;
+    width: 100%;
+    padding: 0px 24px;
+  }
+  @media only screen and (max-width: 1800px) {
+    .container-offer-product .card-4 .card-text {
+        text-shadow: 2px 2px 8px #4d4d4d;
+      padding: 0px 22px;
+      color: white;
+    }
+  }
+  @media only screen and (max-width: 991px) {
+    .container-offer-product .card-4 .card-text {
+        text-shadow: 2px 2px 8px #4d4d4d;
+      padding: 0px 6px;
+      max-width: 140px;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    .container-offer-product .card-4 .card-text {
+        text-shadow: 2px 2px 8px #4d4d4d;
+      padding: 0px 4px;
+      max-width: 150px;
+    }
+  }
+  @media only screen and (max-width: 576px) {
+    .container-offer-product .card-4 .card-text {
+        text-shadow: 2px 2px 8px #4d4d4d;
+      padding: 0px 2px;
+      max-width: 132px;
+    }
+  }
+  .container-offer-product .card-5 {
+    height: 270px;
+    position: relative;
+    background-color: #ebeffe;
+  }
+  @media only screen and (max-width: 991px) {
+    .container-offer-product .card-5 {
+      height: 220px;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    .container-offer-product .card-5 {
+      height: 160px;
+    }
+  }
+  @media only screen and (max-width: 576px) {
+    .container-offer-product .card-5 {
+      height: 130px;
+    }
+  }
+  .container-offer-product .card-5 .card-text {
+    text-shadow: 2px 2px 8px #4d4d4d;
+    max-width: 192px;
+    width: 100%;
+    padding: 0px 24px;
+  }
+  @media only screen and (max-width: 1800px) {
+    .container-offer-product .card-5 .card-text {
+        text-shadow: 2px 2px 8px #4d4d4d;
+      padding: 0px 22px;
+      color: white;
+
+    }
+  }
+  @media only screen and (max-width: 991px) {
+    .container-offer-product .card-5 .card-text {
+        text-shadow: 2px 2px 8px #4d4d4d;
+      padding: 0px 6px;
+      max-width: 108px;
+      color: white;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    .container-offer-product .card-5 .card-text {
+        text-shadow: 2px 2px 8px #4d4d4d;
+      padding: 0px 4px;
+      max-width: 124px;
+      color: white;
+
+    }
+  }
+  @media only screen and (max-width: 576px) {
+    .container-offer-product .card-5 .card-text {
+        text-shadow: 2px 2px 8px #4d4d4d;
+      padding: 0px 2px;
+      max-width: 164px;
+      color: white;
+
+    }
+  }
+  .container-offer-product .card-6 {
+    height: 209px;
+    position: relative;
+    background-color: #b5c5fc;
+  }
+  @media only screen and (max-width: 991px) {
+    .container-offer-product .card-6 {
+      height: 160px;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    .container-offer-product .card-6 {
+      height: 160px;
+    }
+  }
+  @media only screen and (max-width: 576px) {
+    .container-offer-product .card-6 {
+      height: 130px;
+    }
+  }
+  .container-offer-product .card-6 .card-text {
+    text-shadow: 2px 2px 8px #4d4d4d;
+    max-width: 150px;
+    width: 100%;
+    padding: 0px 28px;
+  }
+  @media only screen and (max-width: 1800px) {
+    .container-offer-product .card-6 .card-text {
+        text-shadow: 2px 2px 8px #4d4d4d;
+      padding: 0px 24px;
+      color: white;
+
+    }
+  }
+  @media only screen and (max-width: 991px) {
+    .container-offer-product .card-6 .card-text {
+        text-shadow: 2px 2px 8px #4d4d4d;
+      padding: 0px 6px;
+      max-width: 112px;
+      color: white;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    .container-offer-product .card-6 .card-text {
+        text-shadow: 2px 2px 8px #4d4d4d;
+      padding: 0px 4px;
+      max-width: 120px;
+      color: white;
+
+    }
+  }
+  @media only screen and (max-width: 576px) {
+    .container-offer-product .card-6 .card-text {
+        text-shadow: 2px 2px 8px #4d4d4d;
+      padding: 0px 2px;
+      max-width: 80px;
+      color: white;
+
+    }
+  }
+  .container-offer-product .card-7 {
+    height: 313px;
+    background-color: #ced8fd;
+    position: relative;
+  }
+  @media only screen and (max-width: 991px) {
+    .container-offer-product .card-7 {
+      height: 260px;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    .container-offer-product .card-7 {
+      height: 160px;
+    }
+  }
+  @media only screen and (max-width: 576px) {
+    .container-offer-product .card-7 {
+      height: 130px;
+    }
+  }
+  .container-offer-product .card-7 .card-text {
+    text-shadow: 2px 2px 8px #4d4d4d;
+    max-width: 175px;
+    width: 100%;
+    padding: 0px 28px;
+  }
+  @media only screen and (max-width: 1800px) {
+    .container-offer-product .card-7 .card-text {
+        text-shadow: 2px 2px 8px #4d4d4d;
+      padding: 0px 24px;
+      color: white;
+
+    }
+  }
+  @media only screen and (max-width: 991px) {
+    .container-offer-product .card-7 .card-text {
+        text-shadow: 2px 2px 8px #4d4d4d;
+      padding: 0px 6px;
+      max-width: 130px;
+      color: white;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    .container-offer-product .card-7 .card-text {
+        text-shadow: 2px 2px 8px #4d4d4d;
+      padding: 0px 4px;
+      color: white;
+
+    }
+  }
+  @media only screen and (max-width: 576px) {
+    .container-offer-product .card-7 .card-text {
+        text-shadow: 2px 2px 8px #4d4d4d;
+      padding: 0px 2px;
+      max-width: 100px;
+      color: white;
+
+    }
+  }
+  .container-offer-product .card-text {
+    text-shadow: 2px 2px 8px #4d4d4d;
+    z-index: 1;
+    font-family: "Lato", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35.04px;
+    color: #090a0d;
+  }
+  @media only screen and (max-width: 1800px) {
+    .container-offer-product .card-text {
+        text-shadow: 2px 2px 8px #4d4d4d;
+      font-size: 22px;
+      line-height: 32.04px;
+    }
+  }
+  @media only screen and (max-width: 991px) {
+    .container-offer-product .card-text {
+        text-shadow: 2px 2px 8px #4d4d4d;
+      font-size: 20px;
+      line-height: 28.04px;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    .container-offer-product .card-text {
+        text-shadow: 2px 2px 8px #4d4d4d;
+      font-size: 18px;
+      line-height: 24.04px;
+    }
+  }
+  @media only screen and (max-width: 576px) {
+    .container-offer-product .card-text {
+        text-shadow: 2px 2px 8px #4d4d4d;
+      font-size: 16px;
+      line-height: 21.04px;
+    }
+  }
+  .container-offer-product .card-text.card-txt-white {
+    color: white;
+  }
+  
+  .img-1 {
+    background-image: url(../../../ems/images/venue.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 580px ;
+  }
+  .img-2 {
+    background-image: url(../../../ems/images/a5.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 580px ;
+
+  }
+  .img-3 {
+    background-image: url(../../../ems/images/a3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 480px ;
+
+  }
+  .img-4 {
+    background-image: url(../../../ems/images/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 400px ;
+  }
+  .img-5 {
+    background-image: url(../../../ems/images/a4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 475px ;
+  }
+  .img-6 {
+    background-image: url(../../../ems/images/a2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 450px ;
+
+  }
+  .img-7 {
+    background-image: url(../../../ems/images/v7.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 600px ;
+
+  }

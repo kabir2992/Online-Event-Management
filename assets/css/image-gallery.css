@@ -1,0 +1,130 @@
+/* image gallery related style  */
+
+.gallery-item img {
+    /* width: 100%;
+    height: auto;
+    margin-bottom: 10px; */
+}
+
+
+.main-gallery-container {
+    min-height: 500px;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.image-number-1 {
+    height: 500px;
+    object-fit: cover;
+}
+
+.image-number-2 {
+    height: 160px;
+    object-fit: cover;
+}
+
+.image-number-3 {
+    height: 160px;
+    object-fit: cover;
+}
+
+.view-more-image-btn {
+    border: 1px solid grey !important;
+}
+
+.hide-extra-image {
+    display: none;
+}
+
+/* side bar related css  */
+
+.main-venue-info-card h2 {
+    font-size: 1.5rem;
+    color: black;
+}
+
+.main-venue-info-card .mdi-cart-variant {
+    font-size: 26px;
+    cursor: pointer;
+}
+
+.book-now-button {
+    width: inherit;
+}
+
+.venue-info-content p {
+    font-size: 14px;
+}
+
+.service-list-items {
+    list-style: disclosure-closed;
+}
+
+.two-image-views {
+    height: 500px;
+    object-fit: cover;
+}
+
+
+
+
+/* image model or zooming  */
+
+.image-modal {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 5002;
+}
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 5001;
+}
+
+.cancel-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    color: #fff;
+    z-index: 5001;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.cancel-btn:hover {
+    cursor: pointer;
+}
+
+.modal-image {
+    max-width: 80%;
+    max-height: 80%;
+    z-index: 6000;
+}
+
+.image-venues:hover {
+    cursor: pointer;
+}
+
+.additional-images-list {
+    display: none;
+}
+
+
+/* video call related  */
+.video-call-image {
+    height: 40px;
+    width: 40px;
+}
